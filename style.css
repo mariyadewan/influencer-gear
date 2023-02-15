@@ -1,4 +1,156 @@
 *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+
+.container h1{
+      padding-bottom: 25px;
+   }
+   nav h3{
+      font-size: 1.5em;
+      margin-left: 100px;
+   }
+   nav {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+   }
+   nav a{
+      text-decoration: none;
+      color: black;
+      font-style:normal;
+      font-size: 1.5em;
+      margin-right: 20px;
+   }
+   
    
 
+
+      h1{
+         font-size: 50px;
+     }
+     .top-banner{
+        display: flex;
+     }
+      .half-with{
+      width: 50%;
+      padding-left: 5%;
+      margin-bottom: 20px;
+  }
+  .half-with p{
+     margin-bottom: 30px;
+  }
+  .half-with img{
+      width: 70%;
+
+  }
+  .link-button{
+      text-decoration: none;
+     background-color: rgb(245, 4, 185);
+     color: white;
+     font-weight: 700;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-top: 10px;
+    
+      
+      
+     
+  }
+.button-info{
+    margin-top: 5px;
+    border-radius: 0px;
 }
+
+   
+
+
+
+
+ /* logos section  */
+  hr{
+    color: 8px rgb(255, 68, 0);
+    
+   
+}
+  .imageSection{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 40px;
+   margin-top: 40px;
+}
+
+.imgBox{
+   text-align: center;
+   margin: 0px 20px;
+} 
+  /* Blos style  */
+  .container{
+     margin: 100px 250px;
+  }
+     .products {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 30px;
+   margin: 10px 5px ;
+}
+.product {
+   padding: 35px;
+   box-shadow: rgb(239 230 230) 0px 0px 20px 5px;
+}
+.product-banner img{
+    width: 100%;
+}
+
+.course-info{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.fa-star{
+   font-size: 9px;
+}
+.fa-star.filled{
+   color: #FFC014;
+}
+
+.fa-star.empty{
+   color: rgb(59, 57, 53);
+}
+.see-more{
+   color: rgb(245, 4, 185);
+   text-align: right;
+   margin: 30px 0;
+}
+
+/* bannter bottom style  */
+.container-gear{
+   display: flex;
+  
+  margin: 100px 250px 100px;
+   gap: 100px;
+}
+
+
+
+/* footer style  */
+.footer-part{
+                   background-color: #020a38ef;
+                   align-items: center;
+                   padding: 5px 10px;
+                   color: white;
+                   padding-bottom: 35px;
+                   padding-top: 35px;
+}
+.footer-part p {
+
+   color: rgba(241, 237, 237, 0.795);
+   font-size: 12px;
+   
+}
+
